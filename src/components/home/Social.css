@@ -1,0 +1,10 @@
+/* Light mode (default) */
+.home__social-icon i {
+    color: black; /* Default icon color for light mode */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+/* Dark mode */
+body.dark-mode .home__social-icon i {
+    color: white; /* Icon color for dark mode */
+  }
+    

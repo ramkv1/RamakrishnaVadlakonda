@@ -1,0 +1,32 @@
+/* icon.css */
+
+/* Default Light Mode Styles */
+.home__data {
+    background-color: white;
+    color: black;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+}
+
+/* Dark Mode Styles */
+.dark-mode .home__data {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .home__title,
+.dark-mode .home__subtitle,
+.dark-mode .home__description,
+.dark-mode .iconviews {
+    color: white;
+}
+
+.dark-mode .button {
+    background-color: #444;
+    color: white;
+}
+
+/* Add any other dark mode styles you need */
