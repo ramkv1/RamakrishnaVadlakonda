@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/RamakrishnaVadlakonda/static/css/main.108aa0a0.css",
-    "main.js": "/RamakrishnaVadlakonda/static/js/main.5fa47a16.js",
+    "main.js": "/RamakrishnaVadlakonda/static/js/main.1c32ebdd.js",
     "static/js/787.674770d0.chunk.js": "/RamakrishnaVadlakonda/static/js/787.674770d0.chunk.js",
     "static/media/profile.png": "/RamakrishnaVadlakonda/static/media/profile.bf89fdc72062ea3a6eea.png",
     "static/media/Ramakrishna_Vadlakonda.pdf": "/RamakrishnaVadlakonda/static/media/Ramakrishna_Vadlakonda.84b098a2ef355b6c9852.pdf",
     "static/media/client.png": "/RamakrishnaVadlakonda/static/media/client.728cfc236b5cd420e576.png",
     "index.html": "/RamakrishnaVadlakonda/index.html",
     "main.108aa0a0.css.map": "/RamakrishnaVadlakonda/static/css/main.108aa0a0.css.map",
-    "main.5fa47a16.js.map": "/RamakrishnaVadlakonda/static/js/main.5fa47a16.js.map",
+    "main.1c32ebdd.js.map": "/RamakrishnaVadlakonda/static/js/main.1c32ebdd.js.map",
     "787.674770d0.chunk.js.map": "/RamakrishnaVadlakonda/static/js/787.674770d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.108aa0a0.css",
-    "static/js/main.5fa47a16.js"
+    "static/js/main.1c32ebdd.js"
   ]
 }
