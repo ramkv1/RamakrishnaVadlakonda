@@ -187,4 +187,18 @@ margin-bottom: var(--mb-1);
    
    }
 
+   :root {
+    /* Light Mode Colors */
+    --container-color: #fff;
+    --title-color: #000;
+    --text-color: #333;
+  }
+  
+  .dark-mode {
+    /* Dark Mode Colors */
+    --container-color: #1a1a1a;
+    --title-color: #fff;
+    --text-color: #ddd;
+  }
+  
    

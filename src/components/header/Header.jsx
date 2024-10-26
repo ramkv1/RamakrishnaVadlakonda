@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './header.css';
-// import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 const Header = () => {
     // Toggle Menu 
@@ -56,7 +56,7 @@ const Header = () => {
                             <i className="uil uil-message nav__icon"></i>Contact
                         </a>
                     </li>  
-                    {/* <DarkModeToggle/>                 */}
+                    <DarkModeToggle/>                
                 </ul>
                 <i className='uil uil-times nav__close' onClick={() =>
                 showMenu(!Toggle)}></i>

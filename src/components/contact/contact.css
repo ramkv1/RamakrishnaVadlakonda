@@ -152,3 +152,71 @@
   @media screen and (max-width: 350px) {
  
   }
+
+
+  /* Default Light Theme Variables */
+:root {
+    --body-color: #f4f4f9;
+    --container-color: #ffffff;
+    --title-color: #333;
+    --text-color: #555;
+    --border-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark Theme Variables */
+[data-theme='dark'] {
+    --body-color: #121212;
+    --container-color: #1e1e1e;
+    --title-color: #ffffff;
+    --text-color: #ddd;
+    --border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Body Background */
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Contact Section Styles */
+.contact__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    column-gap: 6rem;
+    padding-bottom: 3rem;
+}
+
+/* Card and Form Styles */
+.contact__card, .contact__form-input {
+    background-color: var(--container-color);
+    border: 2px solid var(--border-color);
+    color: var(--text-color);
+}
+
+.contact__title, .contact__card-title, .contact__card-data, .contact__button {
+    color: var(--title-color);
+}
+
+.contact__button-icon {
+    color: var(--text-color);
+}
+
+/* Hover effects */
+.contact__button:hover .contact__button-icon {
+    transform: translate(0.25rem);
+}
+
+/* Media Queries remain the same */
+
+/* Light mode styles */
+.contact__form-tag {
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
+}
+
+/* Dark mode styles */
+.dark-mode .contact__form-tag {
+    background-color: #333333; /* Dark background */
+    color: #ffffff; /* Light text */
+}
